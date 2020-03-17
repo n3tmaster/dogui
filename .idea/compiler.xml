@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dogui" />
+        <module name="CkanFiller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CkanFiller" target="1.8" />
       <module name="dogui" target="8" />
+      <module name="DroughtGWS" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
